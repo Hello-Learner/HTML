@@ -1,0 +1,87 @@
+         *{
+			box-sizing: border-box;
+		}
+		h2{
+			text-align: center;
+			font-family: monospace;
+			font-weight: bold;
+			font-size: 30px;
+			margin: 30px;
+		}
+		h1{
+			font-size: 10px;
+		}
+		#div1,#div2,#div3{
+			background-color: grey;
+			border: 3px solid black;
+			margin: 20px;
+			float: left;
+			width: 30.33%;
+			font-family: monospace;
+			font-weight:  bold;
+			font-size: 14px;
+			opacity: .9;
+			position: relative;
+		}
+		#p1,#p2,#p3
+		{
+			
+			font-size: 30px;
+			text-align: center;
+		}
+		#p6,#p5,#p4{
+			padding: 10px;
+		}
+		#nav{
+			background-color: grey;
+			
+		}
+		.navbar-brand{
+			margin: 0;
+			color: black;
+			font-family: monospace;
+			font-weight: bold;
+		}
+		.icon-bar{
+			background-color: white;
+		}
+		.navbar-nav{
+			text-align: center;
+			color: black;
+		}
+		li a{
+			color: black;
+			font-size: 20px;
+			font-family: monospace;
+		   
+		}
+		
+		@media (max-width: 760px) {
+  
+          #div1,#div2,#div3{
+				width: 500px;
+				margin: 50px;
+         }
+       
+         
+     }
+         @media (min-width: 770px) and (max-width: 991px) {
+         	#div1,#div2{
+				width: 380px;
+				margin: 10px;
+			}
+			#div3{
+				
+				width: 95%;
+				position: relative;
+				margin: 10px;
+			}	
+	
+          }
+
+		@media (min-width: 992px) and (max-width: 1199px) {
+			#div1,#div2,#div3{
+				width: 350px;
+			}
+  
+        }
